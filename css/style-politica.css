@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fefcf9;
+  color: #333;
+  line-height: 1.7;
+}
+
+header.topo-politica {
+  background-color: #A1866F;
+  color: white;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.topo-politica h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.06);
+  border-radius: 12px;
+}
+
+h2 {
+  color: #A1866F;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+.botao-voltar {
+    background-color: #B29463;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #8c6c4a;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  border-radius: 0 0 12px 12px;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1.2rem;
+  }
+
+  .topo-politica h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+}

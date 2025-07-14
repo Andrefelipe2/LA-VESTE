@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Veste</title>
+  <link rel="stylesheet" href="css/style-home.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>La Veste</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="navbar">
+      <a href="index.html">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="pages/carrinho.html">Carrinho</a>
+      <a href="pages/sobre.html">Sobre</a>
+      <a href="pages/politica.html">Política de Troca</a>
+    </nav>
+  </header>
+
+  <section class="slideshow">
+    <div class="slide ativo">🎉 Promoção: até 50% OFF em camisetas!</div>
+    <div class="slide">🧴 Novos perfumes em estoque!</div>
+    <div class="slide">🎁 Frete grátis nas compras acima de R$ 100</div>
+  </section>
+
+  <section class="categoria" id="produtos">
+    <h2>Roupas em Destaque</h2>
+    <div class="catalogo">
+      <div class="card">
+        <img src="/img/casaco-de-alfaiataria.png" alt="Casaco de alfaiataria">
+        <h3>Casaco de alfaiataria</h3>
+        <p>R$ 60,00</p>
+        <button onclick="adicionarCarrinho('Casaco de alfaiataria', 60.00)">Comprar</button>
+      </div>
+      <div class="card">
+        <img src="/img/bolsa-crocodilo.png" alt="Bolsa Crocodilo">
+        <h3>Bolsa de de crocodilo</h3>
+        <p>R$ 230,00</p>
+        <button onclick="adicionarCarrinho('Bolsa Crocodilo', 230.00)">Comprar</button>
+      </div>
+      <div class="card">
+        <img src="/img/Blazer-Masculino-de-Veludo.jpg" alt="Blazer Masculino de Veludo">
+        <h3>Blazer Masculino de Veludo</h3>
+        <p>R$ 290,00</p>
+        <button onclick="adicionarCarrinho('Blazer Masculino de Veludo', 290.00)">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="categoria">
+    <h2>Acessórios</h2>
+    <div class="catalogo">
+      <div class="card">
+        <img src="/img/semijoia-de-ouro.png" alt="Semijoia de ouro">
+        <h3>Semijoia de ouro</h3>
+        <p>R$ 90,00</p>
+        <button onclick="adicionarCarrinho('Semijoia de ouro', 90.00)">Comprar</button>
+      </div>
+      <div class="card">
+        <img src="/img/Brinco-argola-dourada.png" alt="Brinco Argola Dourada">
+        <h3>Brinco argola dourada</h3>
+        <p>R$ 80,00</p>
+        <button onclick="adicionarCarrinho('Brinco Argola Dourada', 8.00)">Comprar</button>
+      </div>
+      <div class="card">
+        <img src="/img/Perfume-One-Million.png" alt="Perfume One Million">
+        <h3>Perfume One Million</h3>
+        <p>R$ 250,00</p>
+        <button onclick="adicionarCarrinho('Perfume One Million', 250.00)">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 La Veste. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script-home.js"></script>
+</body>
+
+</html>
